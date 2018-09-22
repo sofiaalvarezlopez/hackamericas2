@@ -1,0 +1,60 @@
+/* NAV */
+#nav {
+  margin-bottom: 0;
+}
+
+#nav .btn[disabled]{
+  background-color: #80D8FF;
+}
+
+#map-mode-toggle-btn {
+  padding: 0px 15px;
+}
+
+#nav-header-block {
+  display: inline-block;
+}
+
+#autocomplete-input {
+  width: 30em;
+}
+
+#navbar-or {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    #autocomplete-input {
+        width: 20em;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar-or {
+        display: none;
+    }
+}
+
+#directions {
+  padding-top: 10px;
+  max-height: calc(100vh - 50px);
+  overflow: scroll;
+}
+
+#directions .dir-panel {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#directions .dir-panel {
+  padding-right: 0;
+  margin-right: 10px;
+}
+
+#directions .row {
+  margin-right: 0;
+}
+
+.adp-warnbox, .adp-placemark {
+  display: none;
+}
